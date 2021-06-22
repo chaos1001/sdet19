@@ -1,0 +1,3 @@
+[32mINFO    [0m root:conftest.py:17 开始计算
+[32mINFO    [0m root:test_calculator.py:31 asserting 9 / 3 == 3
+[32mINFO    [0m root:conftest.py:19 结束计算
