@@ -1,0 +1,14 @@
+add:
+  fail:
+    datas:
+      - ["", 账号, 手机, 邮箱, selenium.common.exceptions.TimeoutException]
+      - [姓名, "", 手机, 邮箱, selenium.common.exceptions.TimeoutException]
+      - [姓名, 账号, "", "", selenium.common.exceptions.TimeoutException]
+      - [姓名, 账号, 1111, "", selenium.common.exceptions.TimeoutException]
+      - [姓名, 账号, "", abc@1122, selenium.common.exceptions.TimeoutException]
+    ids:
+      - 姓名不能为空
+      - 账号不能为空
+      - 手机号和邮箱不能同时为空
+      - 请填写正确的手机号码
+      - 请填写正确的邮箱地址
