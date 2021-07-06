@@ -1,0 +1,5 @@
+[32mINFO    [0m root:app.py:30 复用driver
+[32mINFO    [0m root:base_page.py:27 find and click locator: //*[@text='通讯录']
+[32mINFO    [0m root:base_page.py:27 find and click locator: com.tencent.wework:id/gup
+[32mINFO    [0m root:base_page.py:27 find and click locator: //*[contains(@text,'删除成员')]
+[32mINFO    [0m root:base_page.py:27 find and click locator: //*[contains(@text,'确定')]

@@ -1,0 +1,10 @@
+[32mINFO    [0m root:app.py:10 初始化driver
+[32mINFO    [0m root:base_page.py:27 find and click locator: //*[@text='通讯录']
+[32mINFO    [0m root:base_page.py:27 find and click locator: //*[@text='手动输入添加']
+[32mINFO    [0m root:base_page.py:32 find and send_keys locator: //*[contains(@text, '姓名')]/../android.widget.EditText
+[32mINFO    [0m root:base_page.py:32 find and send_keys locator: //*[contains(@text, '手机')]/..//android.widget.EditText
+[32mINFO    [0m root:base_page.py:32 find and send_keys locator: //*[contains(@text, '邮箱')]/../android.widget.EditText
+[32mINFO    [0m root:base_page.py:27 find and click locator: //*[@text='设置部门']
+[32mINFO    [0m root:base_page.py:27 find and click locator: //*[contains(@text,'确定')]
+[32mINFO    [0m root:base_page.py:27 find and click locator: //*[@text='保存后自动发送邀请通知']
+[32mINFO    [0m root:base_page.py:27 find and click locator: //*[@text='保存']
