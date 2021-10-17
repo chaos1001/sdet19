@@ -14,7 +14,7 @@ class TestWework:
     def setup_method(self):
         driver_path = "/Users/ch/dev/lib/chromedriver"
         self.driver = webdriver.Chrome(executable_path=driver_path)
-        self.driver.implicitly_wait(3)
+        self.driver.switch_to.frame().implicitly_wait(3)
 
     def teardown_method(self):
         self.driver.quit()

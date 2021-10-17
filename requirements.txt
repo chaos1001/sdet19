@@ -1,0 +1,16 @@
+pytest
+PyYAML
+pytest-ordering
+pytest-xdist
+allure-pytest
+selenium
+appium-python-client
+Faker
+mitmproxy==5.2
+requests
+jsonpath
+pyhamcrest
+flask
+flask-restful
+flask-sqlalchemy
+pymysql

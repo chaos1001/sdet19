@@ -28,7 +28,7 @@ class TestAddContact:
             "dontStopAppOnReset": "true"
         }
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-        self.driver.implicitly_wait(10)
+        self.driver.context.scroll().implicitly_wait(10)
 
     def teardown_method(self):
         self.driver.quit()
