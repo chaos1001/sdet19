@@ -3,7 +3,7 @@ import json
 from flask import Flask, request
 from flask_restful import Api, Resource
 
-from platform.backend.log_util import logger
+from platformHomework.backend.log_util import logger
 from flask_sqlalchemy import SQLAlchemy
 
 # 实例化flask，并将app绑定到api类上

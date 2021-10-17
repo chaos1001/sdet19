@@ -1,5 +1,5 @@
 import requests
-from platform.backend.log_util import logger
+from ..log_util import logger
 
 
 class TestCase:
