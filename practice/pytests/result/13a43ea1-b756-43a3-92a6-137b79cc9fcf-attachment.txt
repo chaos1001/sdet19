@@ -1,0 +1,1 @@
+INFO     root:test_fixture.py:14 test_case_no_need_login

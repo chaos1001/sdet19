@@ -1,0 +1,3 @@
+[32mINFO    [0m root:conftest.py:35 login with user_b
+[32mINFO    [0m root:test_fixture.py:41 test_case_with_fixture_data
+[32mINFO    [0m root:conftest.py:37 logout with user_b

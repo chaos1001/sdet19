@@ -1,0 +1,65 @@
+[2021-09-05 14:48:44] [INFO] [restful_server.py]/[line: 16]/[post] post method 
+[2021-09-05 14:48:44] [INFO] [restful_server.py]/[line: 24]/[delete] delete method 
+[2021-09-05 14:48:44] [INFO] [restful_server.py]/[line: 12]/[get] get method 
+[2021-09-05 14:48:44] [INFO] [restful_server.py]/[line: 20]/[put] put method 
+[2021-09-05 15:50:22] [INFO] [sql_server.py]/[line: 50]/[<module>] [<User 1>, <User 2>, <User 3>] 
+[2021-09-05 15:50:22] [INFO] [sql_server.py]/[line: 53]/[<module>] ('张三1', '123@qq.com', '男') 
+[2021-09-05 15:54:35] [INFO] [sql_server.py]/[line: 47]/[<module>] 张三1, 123@qq.com, 男 
+[2021-09-05 15:54:35] [INFO] [sql_server.py]/[line: 50]/[<module>] [<User 1>, <User 2>, <User 3>] 
+[2021-09-05 15:54:35] [INFO] [sql_server.py]/[line: 53]/[<module>] ('张三2', '123@qq.com', '男') 
+[2021-09-05 15:55:34] [INFO] [sql_server.py]/[line: 47]/[<module>] 张三1, 123@qq.com, 男 
+[2021-09-05 15:55:34] [INFO] [sql_server.py]/[line: 50]/[<module>] [<User 1>, <User 2>, <User 3>] 
+[2021-09-05 15:55:34] [INFO] [sql_server.py]/[line: 53]/[<module>] ('张三2', '123@qq.com', '男') 
+[2021-09-05 16:42:55] [INFO] [server.py]/[line: 36]/[post] post method 
+[2021-09-05 16:42:55] [INFO] [server.py]/[line: 39]/[post] received: {'id': 1, 'node_id': 'node_id1', 'remark': '备注1'} 
+[2021-09-05 16:42:55] [INFO] [server.py]/[line: 41]/[post] exist case: None 
+[2021-09-05 16:42:55] [INFO] [server.py]/[line: 46]/[post] case id: 1 added 
+[2021-09-05 16:43:28] [INFO] [server.py]/[line: 36]/[post] post method 
+[2021-09-05 16:43:28] [INFO] [server.py]/[line: 39]/[post] received: {'id': 1, 'node_id': 'node_id1', 'remark': '备注1'} 
+[2021-09-05 16:43:28] [INFO] [server.py]/[line: 41]/[post] exist case: <TestCase 1> 
+[2021-09-05 16:52:00] [INFO] [server.py]/[line: 38]/[post] post method 
+[2021-09-05 16:52:00] [INFO] [server.py]/[line: 41]/[post] received: {'id': 2, 'node_id': 'node_id2', 'remark': '备注1'} 
+[2021-09-05 16:52:01] [INFO] [server.py]/[line: 43]/[post] exist case: None 
+[2021-09-05 16:52:01] [INFO] [server.py]/[line: 49]/[post] case id: 2 added 
+[2021-09-05 17:00:48] [INFO] [server.py]/[line: 35]/[get] received args: None 
+[2021-09-05 17:00:49] [INFO] [server.py]/[line: 43]/[get] get method 
+[2021-09-05 17:00:49] [INFO] [test_server.py]/[line: 20]/[test_select] {'code': 0, 'msg': [{'id': 1, 'node_id': 'node_id1', 'remark': '备注1'}, {'id': 2, 'node_id': '"node_id2"', 'remark': '备注1'}]} 
+[2021-09-05 17:00:49] [INFO] [server.py]/[line: 35]/[get] received args: 1 
+[2021-09-05 17:00:49] [INFO] [server.py]/[line: 43]/[get] get method 
+[2021-09-05 17:00:49] [INFO] [test_server.py]/[line: 25]/[test_select] {'code': 0, 'msg': [{'id': 1, 'node_id': 'node_id1', 'remark': '备注1'}]} 
+[2021-09-05 17:05:22] [INFO] [server.py]/[line: 42]/[get] received args: None 
+[2021-09-05 17:05:22] [INFO] [server.py]/[line: 51]/[get] get method 
+[2021-09-05 17:05:22] [INFO] [test_server.py]/[line: 20]/[test_select] {'code': 0, 'msg': [{'id': 1, 'node_id': 'node_id1', 'remark': '备注1'}, {'id': 2, 'node_id': '"node_id2"', 'remark': '备注1'}]} 
+[2021-09-05 17:05:22] [INFO] [server.py]/[line: 42]/[get] received args: 1 
+[2021-09-05 17:05:22] [INFO] [server.py]/[line: 51]/[get] get method 
+[2021-09-05 17:05:22] [INFO] [test_server.py]/[line: 25]/[test_select] {'code': 0, 'msg': [{'id': 1, 'node_id': 'node_id1', 'remark': '备注1'}]} 
+[2021-09-05 17:06:13] [INFO] [server.py]/[line: 42]/[get] received args: None 
+[2021-09-05 17:06:13] [INFO] [server.py]/[line: 51]/[get] case datas: [{'id': 1, 'node_id': 'node_id1', 'remark': '备注1'}, {'id': 2, 'node_id': '"node_id2"', 'remark': '备注1'}] 
+[2021-09-05 17:06:13] [INFO] [test_server.py]/[line: 20]/[test_select] {'code': 0, 'msg': [{'id': 1, 'node_id': 'node_id1', 'remark': '备注1'}, {'id': 2, 'node_id': '"node_id2"', 'remark': '备注1'}]} 
+[2021-09-05 17:06:13] [INFO] [server.py]/[line: 42]/[get] received args: 1 
+[2021-09-05 17:06:13] [INFO] [server.py]/[line: 51]/[get] case datas: [{'id': 1, 'node_id': 'node_id1', 'remark': '备注1'}] 
+[2021-09-05 17:06:13] [INFO] [test_server.py]/[line: 25]/[test_select] {'code': 0, 'msg': [{'id': 1, 'node_id': 'node_id1', 'remark': '备注1'}]} 
+[2021-09-05 17:13:32] [INFO] [server.py]/[line: 72]/[put] received: {'id': 2, 'node_id': ['node_id3', 'node_id4']} 
+[2021-09-05 17:13:32] [INFO] [server.py]/[line: 74]/[put] exist case: <TestCase 2> 
+[2021-09-05 17:22:12] [INFO] [server.py]/[line: 72]/[put] received: {'id': 2, 'node_id': ['node_id3', 'node_id4']} 
+[2021-09-05 17:22:12] [INFO] [server.py]/[line: 74]/[put] exist case: <TestCase 2> 
+[2021-09-05 17:22:12] [INFO] [server.py]/[line: 80]/[put] case id: 2 updated 
+[2021-09-05 17:23:42] [INFO] [server.py]/[line: 85]/[delete] received args: 1 
+[2021-09-05 17:24:17] [INFO] [server.py]/[line: 85]/[delete] received args: 1 
+[2021-09-05 17:24:34] [INFO] [server.py]/[line: 85]/[delete] received args: 1 
+[2021-09-05 17:40:18] [INFO] [orm_relation.py]/[line: 55]/[<module>] [] 
+[2021-09-05 17:40:29] [INFO] [orm_relation.py]/[line: 55]/[<module>] [('张三1', 18, '普通用户')] 
+[2021-09-05 17:44:33] [INFO] [orm_relation.py]/[line: 56]/[<module>] [('张三1', 18, '普通用户')] 
+[2021-10-17 11:39:19] [INFO] [server.py]/[line: 57]/[post] received: {'id': 3, 'node_id': ['node_id2', 'node_id21'], 'remark': '备注1'} 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 59]/[post] exist case: None 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 65]/[post] case id: 3 added 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 42]/[get] received args: None 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 51]/[get] case datas: [{'id': 2, 'node_id': '["node_id3", "node_id4"]', 'remark': '备注1'}, {'id': 3, 'node_id': '["node_id2", "node_id21"]', 'remark': '备注1'}] 
+[2021-10-17 11:39:20] [INFO] [test_server.py]/[line: 20]/[test_select] {'code': 0, 'msg': [{'id': 2, 'node_id': '["node_id3", "node_id4"]', 'remark': '备注1'}, {'id': 3, 'node_id': '["node_id2", "node_id21"]', 'remark': '备注1'}]} 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 42]/[get] received args: 1 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 51]/[get] case datas: [] 
+[2021-10-17 11:39:20] [INFO] [test_server.py]/[line: 25]/[test_select] {'code': 0, 'msg': []} 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 72]/[put] received: {'id': 2, 'node_id': ['node_id3', 'node_id4']} 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 74]/[put] exist case: <TestCase 2> 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 79]/[put] case id: 2 updated 
+[2021-10-17 11:39:20] [INFO] [server.py]/[line: 85]/[delete] received args: 1 

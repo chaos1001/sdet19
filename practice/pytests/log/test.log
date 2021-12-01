@@ -1,0 +1,4 @@
+2021-07-25 16:24:34 [INFO] logging user: Tom (test_fixture_with_parametrize.py:9)
+2021-07-25 16:24:34 [INFO] login_r return: Tom (test_fixture_with_parametrize.py:16)
+2021-07-25 16:24:34 [INFO] logging user: jerry (test_fixture_with_parametrize.py:9)
+2021-07-25 16:24:34 [INFO] login_r return: jerry (test_fixture_with_parametrize.py:16)

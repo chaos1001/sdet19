@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_fixture.py:49 test_case_with_browser 2
+[32mINFO    [0m root:test_fixture.py:16 close browser

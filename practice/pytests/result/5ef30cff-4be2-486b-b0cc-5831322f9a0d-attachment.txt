@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_exception.py:13 exception_fixture setup

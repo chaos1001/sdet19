@@ -1,0 +1,3 @@
+INFO     root:test_fixture.py:8 login from module
+INFO     root:test_fixture.py:19 test_case_need_login
+INFO     root:test_fixture.py:22 token

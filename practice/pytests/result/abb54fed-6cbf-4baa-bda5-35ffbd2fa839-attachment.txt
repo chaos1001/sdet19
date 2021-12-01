@@ -1,0 +1,2 @@
+INFO     root:test_fixture_with_parametrize.py:9 logging user: jerry
+INFO     root:test_fixture_with_parametrize.py:16 login_r return: jerry
